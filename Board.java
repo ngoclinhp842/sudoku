@@ -249,43 +249,9 @@ public class Board {
 
     public static void main(String[] argv){
         Board board = new Board();
-        // System.out.println(board.toString());
-        // System.out.println("row " + board.getRows());
-        // System.out.println("col " + board.getCols());
-        // System.out.println("cell " + board.get(2, 2));
-        // Cell cell = board.get(2,2);
-        // System.out.println(cell);
-        // System.out.println("isLocked " + board.isLocked(2, 2));
-        // System.out.println("value " + board.value(2, 2));
-        // board.set(2, 2, 1);
-        // board.set(2, 2, 2, true);
-        // System.out.println("row " + board.getRows());
-        // System.out.println("col " + board.getCols());
-        // System.out.println("cell " + board.get(2, 2));
-        // System.out.println("isLocked " + board.isLocked(2, 2));
-        // System.out.println(board.toString());
-        // System.out.println(board.read(argv[0]));
-        // System.out.println(board.toString());
 
         board.read(argv[0]);
         System.out.println(board);
-
-        // for (int i = 0; i < 9; i++){
-        //     for (int j = 0; j < 9; j++){
-        //         System.out.println(board.get(i,j));
-        //     }
-        // }
-
-        // System.out.println(board.validValue(1, 1, 4));
-        // System.out.println(board.validValue(1, 1, 2));
-        // System.out.println(board.validValue(1, 8, 2));
-        // System.out.println(board.validValue(1, 8, 3));
-        
-        // System.out.println(board.validSolution());
-        // System.out.println(board.get(0,0));
-        // System.out.println(board.findBestCell());
-        // System.out.println(board);
-
         
     }
 }
