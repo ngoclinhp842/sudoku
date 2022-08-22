@@ -2,8 +2,6 @@
 File: CellStack.java
 Author: Linh Phan (Michelle)
 Date: 02/22/2022
-Course: CS231 A
-Lab 3
 
 CellStack class that implements an array-based Stack that can hold Cell types. 
 You may not use an ArrayList to implement your stack; build it with regular arrays.
