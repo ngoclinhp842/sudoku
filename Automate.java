@@ -2,8 +2,6 @@
 File: Automate.java
 Author: Linh Phan (Michelle)
 Date: 02/22/2022
-Course: CS231 A
-Project 3
 
 The Automate class automate the process of exploring the trends in the simulation.
 An automated process should be able to analyze the results of hundreds or even thousands of games.
