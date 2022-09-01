@@ -35,3 +35,4 @@ From the result table below, we can conclude that more randomly selected (but va
 From the result table below, we can conclude that more randomly selected (but valid) initial values result in longer average time to solve a Sudoku board.
 
 ## ⚖️ License:
+Apache License 2.0
