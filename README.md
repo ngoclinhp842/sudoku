@@ -21,7 +21,7 @@ Note: 10 is the number of given initial values on the broad
 1. The relationship between the number of randomly selected (but valid) initial values and the likelihood of finding a solution for the board?
 
 <p align="center">
-  <a href="https://im.ge/i/Ox0gnW"><img src="https://i.im.ge/2022/09/01/Ox0gnW.Screen-Shot-2022-09-01-at-12-11-45-PM.md.png" alt="Screen Shot 2022-09-01 at 12.11.45 PM" border="0"></a>
+  <a href="https://ibb.co/1MFmsCD"><img src="https://i.ibb.co/dt85bNd/Sudoku-1.png" alt="Sudoku-1" border="0"></a>
 </p>
 
 From the result table below, we can conclude that more randomly selected (but valid) initial values result in a lower probability of finding a solution for the Sudoku board.
@@ -29,7 +29,7 @@ From the result table below, we can conclude that more randomly selected (but va
 2. The relationship between the time taken to solve a board and the number of initial values?
 
 <p align="center">
-  <a href="https://im.ge/i/Ox0Zkc"><img src="https://i.im.ge/2022/09/01/Ox0Zkc.Screen-Shot-2022-09-01-at-12-14-19-PM.md.png" alt="Screen Shot 2022-09-01 at 12.14.19 PM" border="0"></a>
+  <a href="https://ibb.co/7zMqpvf"><img src="https://i.ibb.co/b3wkv10/sudoku-2.png" alt="sudoku-2" border="0"></a>
 </p>
 
 From the result table below, we can conclude that more randomly selected (but valid) initial values result in longer average time to solve a Sudoku board.
