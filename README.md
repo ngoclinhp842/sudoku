@@ -32,7 +32,8 @@ From the result table below, we can conclude that more randomly selected (but va
   <a href="https://ibb.co/7zMqpvf"><img src="https://i.ibb.co/b3wkv10/sudoku-2.png" alt="sudoku-2" border="0"></a>
 </p>
 
-From the result table below, we can conclude that more randomly selected (but valid) initial values result in longer average time to solve a Sudoku board.
+From the result table below, we can conclude that more randomly selected (but valid) initial values result in a longer average time to solve a Sudoku board.
+An interesting fact is that it is known that 17 clues mark the number of clues that increase Sudoku difficulty. This is also correlated with my project as when the number of given values approaches 17, the program rarely heard a solved Sudoku board.
 
 ## ⚖️ License:
 Apache License 2.0
