@@ -179,18 +179,18 @@ public class Sudoku {
         Sudoku sudoku = new Sudoku(N, true);
         sudoku.solve(10);
 
-        // System.out.println("Initial board:\n" + sudoku);
+        System.out.println("Initial board:\n" + sudoku);
         
-        // boolean solved = sudoku.solve(10);
-        // System.out.println("Board:\n" + sudoku);
-        // if (solved){
-        //     System.out.println("Solved board:\n" + sudoku);
-        // }
-        // else {
-        //     System.out.println("Unsolved board:\n" + sudoku);
-        // }
+        boolean solved = sudoku.solve(10);
+        System.out.println("Board:\n" + sudoku);
+        if (solved){
+            System.out.println("Solved board:\n" + sudoku);
+        }
+        else {
+            System.out.println("Unsolved board:\n" + sudoku);
+        }
 
-        // LandscapeDisplay display = new LandscapeDisplay(sudoku.board, 30);
+        LandscapeDisplay display = new LandscapeDisplay(sudoku.board, 30);
             
     }
 }
