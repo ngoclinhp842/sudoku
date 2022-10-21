@@ -110,14 +110,11 @@ public class Board {
             while (line != null){
 
                 String[] words = line.split("[ ]+");
-                // print the String (line)
-                // System.out.println(line);
-                // System.out.println(words.length);
+
                 if (words.length > 1){
                     int col = 0;
                     // go through each item, add it to the board 
                     for (int i = 0; i < words.length; i++){
-                        // System.out.println(words[i]);
                         if (words[i] != ""){
                             board[row][col].setValue(Integer.parseInt(words[i]));
                             col++;
@@ -209,7 +206,6 @@ public class Board {
                         // System.out.println(num);
                         if (validValue(i, j, num)){
                             board[i][j].value = num;
-                            // System.out.println(i + " " + j + " " + board[i][j]);
                             return board[i][j];
                         }
                     }
